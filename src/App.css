@@ -1,0 +1,37 @@
+.to-do-container .row {
+  width: 80%;
+}
+
+.to-do-container input {
+  outline: none;
+  border: 1px solid black;
+  padding: 16px 32px;
+  border-radius: 8px;
+  width: 400px;
+  transition: all 0.2s ease-in-out;
+}
+.to-do-container input:focus {
+  box-shadow: 0 0 0 1px black;
+}
+.result .task {
+  margin: auto;
+  width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .to-do-container .row {
+    width: 96%;
+  }
+  .row h1 {
+    font-size: 3em;
+  }
+  .row h2 {
+    font-size: 1.4em;
+  }
+  .to-do-search input {
+    width: 100%;
+  }
+  .result .task {
+    width: 100%;
+  }
+}
